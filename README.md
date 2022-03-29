@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Hacker News Search App Using React JS
+Performs search on the given input and displays a list of results in the search Page.
+
+Tried Deploying it with Firebase but cannot Deploy since the api is from a "http" link and the deployed Project Will be "https" by default.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
