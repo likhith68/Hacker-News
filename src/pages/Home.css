@@ -1,0 +1,44 @@
+
+.home
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.home__header{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+.home__header a{
+    margin-right: 20px;
+    text-decoration: inherit;
+    color:black;
+}
+
+.home__header a:hover{
+    text-decoration: underline rgb(78, 70, 70);
+}
+
+.home__headerLeft{
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: 600;
+}
+
+.home__body>img{
+    object-fit:contain;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+.home__body{
+    flex:1;
+    display: flex;
+    margin-top:0;
+    flex-direction: column;
+}

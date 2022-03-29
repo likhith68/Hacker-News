@@ -1,0 +1,123 @@
+
+.searchPage__header{
+    display: flex;
+    position:sticky;
+    top:0;
+    background-color: white;
+    z-index:50;
+    align-items:flex-start;
+    padding-top:50px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.searchPage__logo{
+    object-fit:contain;
+    height:150px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.Title__text{
+    color:black;
+    text-decoration: none;
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.margin-top{
+    margin-top: 10px;
+}
+
+.searchPage__headerBody> .search > .search__input{
+    display: flex;
+    margin-top:100px;
+    width:50vw;
+    height:30px;
+    margin:50px;
+    margin-left:0;
+    max-width: 1000px;
+    margin-bottom: 0;
+}
+
+.searchPage__headerBody> .search > .search__buttons{
+    display:flex;
+}
+
+.searchPage__result{
+    margin:40px 0;
+}
+
+.searchPage__results{
+    max-width: 750px;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.searchPage__resultLink{
+color:#615d5d;
+font-size: small;
+}
+
+.searchPage__resultTitle{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+}
+
+.searchPage__resultTitle:hover{
+    text-decoration: underline;
+}
+
+.searchPage__resultTitle > h2{
+    font-weight: 500;
+}
+
+.searchPage__resultAuthor{
+    font-size: Larger;
+    font-weight: 400;
+}
+
+search input css
+
+.search__input{
+    display:flex;
+    padding-top: 50px;
+    align-items: center;
+    border:2px solid rgb(14, 12, 12);
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width:2000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+
+.search__input>input{
+    flex:1;
+    padding:10px 20px;
+    font-size: large;
+    border: none;
+}
+
+.search__input>input:focus{
+    outline-width: 0;
+}
+
+.search__inputIcon{
+    color:rgb(8, 8, 8);
+}
+
+.search__buttons{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Results__For{
+    font-size: x-large;
+    color:rgb(16, 16, 148);
+}
