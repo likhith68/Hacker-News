@@ -39,6 +39,7 @@ function SearchPage() {
                                     <h2>{hits.title}</h2>
                                 </a>
                                 <span className='searchPage__resultAuthor'>Author - {hits.author}</span>
+
                             </div>
                         ))}
                     </div>
